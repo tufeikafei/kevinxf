@@ -19,9 +19,9 @@ new Env('叮咚买菜积分活动');
 多个账号时，DD_token，DD_cookies用&隔开，例如DD_token=xxxxx&xxxx
 
 手机抓包后，喂食一次，查看URL
-搜索station_id=，&前面，=后面的东西就是你需要的token。
+搜索device_token=，&前面，=后面的东西就是你需要的token。
 例如：https://maicai.api.ddxq.mobi/user/info?api_version=9.1.0&app_client_id=1&station_id=xxxx&native_version=&latitude=23.017158&longitude=113.811603
-其中station_id=xxxx，xxxx就是token，cookies的话就要自己去该URL中，查看headers（表头）。
+其中device_token=xxxx，xxxx就是token，cookies的话就要自己去该URL中，查看headers（表头）。
 抓取运行正常后，只要手机不退出登录，应该是永远不过期的。
 
 
